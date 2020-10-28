@@ -1,0 +1,10 @@
+Name,DateOfBirth,Married,Phone,Salary
+Oleg,10.10.1998,true,123456,10000
+Marta,11.08.1998, false,123456,20000
+Stepan,03.02.1993,true,123456,15200
+Olga,01.02.1992,false,123456,25300
+Olga,09.12.1990, true,123456,21000
+Igor,23.04.1991, true,123456,30000
+Ivan,03.07.1982, true,123456,40000
+Olena,02.10.1990, false,123456,21000
+
