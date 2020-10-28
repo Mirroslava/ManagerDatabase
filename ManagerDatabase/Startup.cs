@@ -26,8 +26,10 @@ namespace ManagerDatabase
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            string connection = Configuration.GetConnectionString("DefaultConnection");
             services.AddDbContext<ApplicationContext>(options =>
-               options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
+                options.UseSqlServer(connection));
             services.AddMvc();
         }
 
