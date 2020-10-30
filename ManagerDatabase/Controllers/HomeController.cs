@@ -76,12 +76,12 @@ namespace ManagerDatabase.Controllers
 
                             employees.Add(new Manager
                             {
-                                Id = int.Parse(rows[0].ToString()),
-                                Name = rows[1].ToString(),
-                                DateOfBirth = DateTime.Parse(rows[2]),
-                                Married = bool.Parse(rows[3]),
-                                Phone = rows[4].ToString(),
-                                Salary = decimal.Parse(rows[5].ToString())
+                               
+                                Name = rows[0].ToString(),
+                                DateOfBirth = DateTime.Parse(rows[1]),
+                                Married = bool.Parse(rows[2]),
+                                Phone = rows[3].ToString(),
+                                Salary = decimal.Parse(rows[4].ToString())
                             });
                         }
                     }
